@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.taskado.fragments.Users.AddTaskFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_task"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="@color/primary_color"
+            android:textColor="@color/white"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/Title"
+            android:id="@+id/input_task_name_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_task_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <!-- Task Start Date Input-->
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginLeft="30dp"
+                android:id="@+id/start_date"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/start_date"
+                app:icon="@drawable/ic_baseline_date_range_24"
+                android:textAllCaps="false"
+                app:cornerRadius="10dp"
+                app:strokeColor="@color/grey"
+                android:textColor="@color/cardview_dark_background"
+                app:iconTint="@color/cardview_dark_background"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginLeft="30dp"
+                android:id="@+id/end_date"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/end_date"
+                app:icon="@drawable/ic_baseline_date_range_24"
+                android:textAllCaps="false"
+                app:cornerRadius="10dp"
+                app:strokeColor="@color/grey"
+                android:textColor="@color/cardview_dark_background"
+                app:iconTint="@color/cardview_dark_background"
+                />
+
+        </LinearLayout>
+
+        <!-- Task Description Input-->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/description"
+            android:id="@+id/input_task_description_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_task_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_gravity="center"
+            android:id="@+id/Add_mini_task"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/add_mini_task"
+            android:textAllCaps="false"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/ic_add_mini_task"
+            android:textColor="@color/cardview_dark_background"
+            app:iconTint="@color/cardview_dark_background"
+            android:layout_marginTop="10dp"
+            />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/mini_task_recyclerview"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/minitask_view"
+                android:layout_gravity="center">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/add_task_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensansregular"
+                android:text="@string/add"
+                android:textAllCaps="false"
+                app:backgroundTint="@color/primary_color">
+
+            </com.google.android.material.button.MaterialButton>
+
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

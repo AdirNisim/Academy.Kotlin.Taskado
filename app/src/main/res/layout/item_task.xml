@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="180dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="12dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:id="@+id/card_item"
+    android:background="@drawable/card_background"
+    app:cardBackgroundColor="@color/primary_color"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+>
+
+
+        <TextView
+            android:id="@+id/title_of_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="first week"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/task_creator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adir Nisim"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/date_of_item"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:text="12.01 - 22.01"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/precentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30%"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            android:layout_gravity="center"
+            />
+
+
+        <ImageView
+            android:id="@+id/task_favorite_image"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_favorite_loved_task"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

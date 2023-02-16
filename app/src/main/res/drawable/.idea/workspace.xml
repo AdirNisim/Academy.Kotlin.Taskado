@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86a29ab6-e2f1-48ac-980b-28f8bff4c8a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/taskado/dataclasses/MiniTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/taskado/dataclasses/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/taskado/dataclasses/TaskDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/taskado/fragments/AddTaskFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/taskado/fragments/ItemAdeapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_add_mini_task.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_baseline_date_range_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untouchable_shape_button_rounded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/add_task_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/item_task.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/mini_task_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values-night/ids.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/ids.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/taskado/classes/FirebaseHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/taskado/classes/FirebaseHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/taskado/fragments/RegisterPageFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/taskado/fragments/RegisterPageFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/taskado/fragments/UpdateProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/taskado/fragments/UpdateProfileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/taskado/fragments/UserPageFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/taskado/fragments/UserPageFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/taskado/local_db/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/taskado/local_db/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/taskado/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/taskado/utils/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape_button_rounded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shape_button_rounded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/login_page_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/login_page_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/update_profile_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/update_profile_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/user_page_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/user_page_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/my_nav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../navigation/my_nav.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="2L9CK9Utj1gyZ8eQi7NRXJw4ho5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86a29ab6-e2f1-48ac-980b-28f8bff4c8a6" name="Changes" comment="" />
+      <created>1675273845748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675273845748</updated>
+    </task>
+    <servers />
+  </component>
+</project>

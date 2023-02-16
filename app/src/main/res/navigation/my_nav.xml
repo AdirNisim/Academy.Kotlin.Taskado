@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/entryAnimationFragment">
+
+    <fragment
+        android:id="@+id/entryAnimationFragment"
+        android:name="com.example.taskado.fragments.Guest.EntryAnimationFragment"
+        android:label="entry_animation_layout"
+        tools:layout="@layout/entry_animation_layout" >
+        <action
+            android:id="@+id/action_entryAnimationFragment_to_entryPageFragment"
+            app:destination="@id/entryPageFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/entryPageFragment"
+        android:name="com.example.taskado.fragments.Guest.EntryPageFragment"
+        android:label="entry_page_layout"
+        tools:layout="@layout/entry_page_layout" >
+        <action
+            android:id="@+id/action_entryPageFragment_to_loginPageFragment"
+            app:destination="@id/loginPageFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/entryPageFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_entryPageFragment_to_registerPageFragment"
+            app:destination="@id/registerPageFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginPageFragment"
+        android:name="com.example.taskado.fragments.Guest.LoginPageFragment"
+        android:label="login_page_layout"
+        tools:layout="@layout/login_page_layout" >
+        <action
+            android:id="@+id/action_loginPageFragment_to_userPageFragment"
+            app:destination="@id/userPageFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_loginPageFragment_to_registerPageFragment"
+            app:destination="@id/registerPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userPageFragment"
+        android:name="com.example.taskado.fragments.Users.UserPageFragment"
+        android:label="user_page_layout"
+        tools:layout="@layout/user_page_layout" >
+        <action
+            android:id="@+id/action_userPageFragment_to_entryPageFragment"
+            app:destination="@id/entryPageFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_userPageFragment_to_UpdateProfileFragment"
+            app:destination="@id/updateProfileFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/userPageFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_userPageFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment" />
+        <action
+            android:id="@+id/action_userPageFragment_to_detailedPageFragment"
+            app:destination="@id/detailedPageFragment" />
+        <action
+            android:id="@+id/action_userPageFragment_to_favoriteTasksPageFragment"
+            app:destination="@id/favoriteTasksPageFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerPageFragment"
+        android:name="com.example.taskado.fragments.Guest.RegisterPageFragment"
+        android:label="register_page_layout"
+        tools:layout="@layout/register_page_layout" >
+        <action
+            android:id="@+id/action_registerPageFragment_to_loginPageFragment"
+            app:destination="@id/loginPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateProfileFragment"
+        android:name="com.example.taskado.fragments.Users.UpdateProfileFragment"
+        android:label="update_profile_page"
+        tools:layout="@layout/update_profile_page">
+        <action
+            android:id="@+id/action_updateProfileFragment_to_userPageFragment"
+            app:destination="@id/userPageFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpTo="@id/userPageFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.example.taskado.fragments.Users.AddTaskFragment"
+        android:label="add_task_page"
+        tools:layout="@layout/add_task_page" >
+        <action
+            android:id="@+id/action_addTaskFragment_to_userPageFragment"
+            app:destination="@id/userPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailedPageFragment"
+        android:name="com.example.taskado.fragments.Users.DetailedPageFragment"
+        android:label="detailed_ticket_page"
+        tools:layout="@layout/detailed_ticket_page" >
+        <action
+            android:id="@+id/action_detailedPageFragment_to_userPageFragment"
+            app:destination="@id/userPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteTasksPageFragment"
+        android:name="com.example.taskado.fragments.Users.FavoriteTasksPageFragment"
+        android:label="my_favorite_tasks"
+        tools:layout="@layout/my_favorite_tasks" />
+</navigation>

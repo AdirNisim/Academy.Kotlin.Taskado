@@ -1,0 +1,28 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home"
+
+        />
+    <item
+        android:id="@+id/nav_addtask"
+        android:icon="@drawable/ic_baseline_note_add_24"
+        android:title="@string/add_task"
+/>
+    <item
+        android:id="@+id/nav_favorite"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:title="@string/Favorite_Tasks"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_user_place_holder"
+        android:title="@string/my_profile"/>
+    <item
+        android:id="@+id/nav_signout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="@string/sign_out"/>
+</menu>

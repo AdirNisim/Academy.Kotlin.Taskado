@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Taskado</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_sentnce"> Login into your account.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="no_account">if you havent registered yet <bold><font fgcolor='#00C9B8'>Register</font> </bold> </string>
+    <string name="paragraph">Hi There!,          We are very happy to welcome  you on board with Taskado!          We invite you to enjoy our  amazing features for task with your organization.</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="register_title">Register to Taskado!</string>
+    <string name="fill_form"> Please fill the following form.\nRequired fields are marked with (*)</string>
+    <string name="full_name">Full Name</string>
+    <string name="required">Required*</string>
+    <string name="phoneNumber">Phone number</string>
+    <string name="has_account"> I Have already account? <bold><font fgcolor='#00C9B8'>Login</font> </bold> </string>
+    <string name="organization">Organization</string>
+    <string name="lets_start">Lets Start</string>
+    <string name="current_tasks">All tasks of your organization:</string>
+    <string name="current_user">Full Name</string>
+    <string name="progress">In Progress</string>
+    <string name="done">Done</string>
+    <string name="Done_By">Done By:</string>
+    <string name="no_one">No One</string>
+    <string name="title_of_task">Title Of Task</string>
+    <string name="organization_favorites">Favorites</string>
+    <string name="date" translatable="false">Feb, DD YYYY</string>
+    <string name="precentage" translatable="false">CC.CC%</string>
+    <string name="create_task">Create Task</string>
+    <string name="Title">Title</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="description">Description</string>
+    <string name="add_mini_task">Add MiniTask</string>
+    <string name="add">Add</string>
+    <string name="task_description">Task Description</string>
+    <string name="date_format" translatable="false">DD/MM/YYYY</string>
+    <string name="start_date_input">Start Date:</string>
+    <string name="end_date_input">End Date:</string>
+    <string name="created_by">created by:</string>
+    <string name="Person">Some Person</string>
+    <string name="status">status:</string>
+    <string name="ammount">amount:</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="Update_Task">Update Task</string>
+    <string name="Taskado" translatable="false">Taskado</string>
+    <string name="Add_mini_task">Add Mini Task</string>
+    <string name="MINI_TASK_DESCRIPTION">MINI TASK DESCRIPTION</string>
+    <string name="UnDone_mini_Task">UnDone mini Task</string>
+    <string name="Done_mini_Task">Done mini Task</string>
+    <string name="update">Update</string>
+    <string name="home">Home</string>
+    <string name="add_task">Add Task</string>
+    <string name="Favorite_Tasks">Favorite Tasks</string>
+    <string name="my_profile">My Profile</string>
+    <string name="organization_Register">Organization</string>
+</resources>
